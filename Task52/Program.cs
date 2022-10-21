@@ -36,7 +36,7 @@ int[,] InitArray(int m, int n)
 
 string GetAveregeOfColumn(int[,] matrix)
 {
-    int summ = 0;
+    int summ;
     double averege;
     List<double> aList = new List<double>();
     for (int i = 0; i < matrix.GetLength(1); i++)

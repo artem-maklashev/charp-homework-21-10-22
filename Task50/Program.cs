@@ -68,4 +68,4 @@ int column = GetPosition("Введите номер столбца (1-6): ");
 int[,] matrix = InitArray(rowSize, columnSize);
 PrintMatrix(matrix);
 var result = TakeNumberInMatrix(row, column, matrix);
-Console.WriteLine($"Результат поиска в массиве на позиции строка {row}, столбец {column} -> {result}!");
+Console.WriteLine($"Результат поиска в массиве на позиции строка {row}, столбец {column} -> {result}.");
